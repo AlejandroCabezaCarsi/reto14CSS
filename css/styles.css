@@ -56,8 +56,38 @@
 }
 
 body {
-    background-image: url(pingüinos.jpg); 
-    position: absolute;
+    background: url(pingüinos.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+  }
 
+.contenedor {
+    position: relative; 
+    display: inline-block;
+    text-align: center;
 }
 
+.contenedorPrincipal {
+        background-color: white;
+        width: 35em;
+        height: 3em;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        border:ridge 0.2em black;
+        position: absolute;
+        top: 30em;
+        left: 44em;
+}
+
+img { 
+    width: auto;
+    height: auto;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
