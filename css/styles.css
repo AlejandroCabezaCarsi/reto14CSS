@@ -1,0 +1,63 @@
+.contenedorPrincipal { 
+    background-color: white;
+    width: 35em;
+    height: 3em;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border:ridge 0.2em black;
+
+}
+
+.primeraFila { 
+    display: grid;
+    border-bottom: ridge 0.2em black ;
+}
+
+.segundaFila {
+    display: grid;
+    
+} 
+
+.contenidoPrimeraFila {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 35em;
+   
+}
+
+.segundaFila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(245, 255, 157);
+    
+    
+} 
+
+.contenidoIzqSegundaFila {
+  box-sizing: border-box;
+  height: 1.8em;
+  border-right: ridge black 0.2em;
+  width: 17.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenidoDchSegundaFila {
+    display: flex;
+    width: 17.5em;
+    justify-content: center;
+}
+
+body {
+    background-image: url(pingüinos.jpg); 
+    position: absolute;
+
+}
+
